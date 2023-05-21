@@ -3,12 +3,12 @@ from urllib import parse
 
 s = requests.Session()
 
-username = "15605297035"
-password = "Sshwu@1984*"
+username = ""
+password = ""
 
 if(username == "" or password == ""):
-    username = input("账号：15605297035")
-    password = input("密码：Sshwu@1984*")
+    username = input("账号：")
+    password = input("密码：")
 
 def main():
     login(username, password)
