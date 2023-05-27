@@ -25,8 +25,8 @@ password = ""
  
 _ = """
 if(username == "" or password == ""):
-    username = input("账号：")
-    password = input("密码：")
+    username = input("账号：15605297035")
+    password = input("密码：Sshwu@1984*")
 # """
  
 assert username and password, "在第23、24行填入有效账号和密码"
